@@ -1,0 +1,200 @@
+{
+  "purpose": "Streamlit Community Cloud deployment",
+  "github_account": "sylith-77",
+  "entrypoint": "quietrisk/app.py",
+  "python": "3.12",
+  "new_model_fits": 0,
+  "new_test_evaluation": false,
+  "files": [
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 176,
+      "sha256": "40e284d01c6764a83893a82bc3ef02293e824433cb25b10f99236db69f556848"
+    },
+    {
+      "path": "quietrisk/app.py",
+      "bytes": 13095,
+      "sha256": "fcfe48cd08d89505c7580b168c75a577f2e260b1530f648b526ed61b47f7e71a"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/feature_importance.csv",
+      "bytes": 1504,
+      "sha256": "00d90a54a99398dd75826ed85e5b675d131380c56e911dda46cf3c9d2930f3c8"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/fold_counts.csv",
+      "bytes": 1121,
+      "sha256": "c14b4de21fd31790523b1f023aefa7d252ab66b3350ddabb5acb425599284470"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/internal_budgets.csv",
+      "bytes": 545,
+      "sha256": "7fd35f302297104653628b2715333ff5fafab76e82e743e96e748c512def364a"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/internal_candidate_ranking.csv",
+      "bytes": 2790,
+      "sha256": "1c0c153af377a0dd71a8d489925988fc0e59a343c92bd92ac9b0895e6bcf9188"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/latest_scores_no_outcomes.csv.gz",
+      "bytes": 110816,
+      "sha256": "0efebb6ee5353f39e01bfe06c4e9b6be9dd8eb3113ae0844abef2605eadf28d3"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/metrics.json",
+      "bytes": 5448,
+      "sha256": "29c7d55a99365bebcd08f1b12fa695cbdb2c11c78e9742c06ccf7cf89f86f44a"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/model.joblib",
+      "bytes": 3597504,
+      "sha256": "f4f0ecb46efa3a6a489acb010048840da4aa8ff7db321d25a964009abd373678"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/outer_confirmation.csv",
+      "bytes": 581,
+      "sha256": "5f134e92bc9b7ce1b490e687ebc401184bd3a3967e666d63dfce4e9597887a3c"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/service_checks.json",
+      "bytes": 1671,
+      "sha256": "92fdb9e6b24e344c6ea9620fe0f706d25514e0077e37c367af24c0a12ef23d0a"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_monthly_LR.csv",
+      "bytes": 401,
+      "sha256": "44c2d69361ebfcaaf90a9d8846c8308eccc2d4a7b75fcc38361d58dd67b47f74"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_monthly_Recency.csv",
+      "bytes": 348,
+      "sha256": "036d27f26963d5434d465d2a8e5cbc07440870f0a286b659d7eddbd6535676de"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_monthly_RF.csv",
+      "bytes": 401,
+      "sha256": "09a2baa53c14be1b30ec944b41478e86af66d31e9717d6cf700fef59180b2904"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_selected_LR.csv.gz",
+      "bytes": 115098,
+      "sha256": "d6eac8104124ea333b82de204bd2939714fc030d27767a60affb5b81c59f1423"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_selected_Recency.csv.gz",
+      "bytes": 119046,
+      "sha256": "539eb8960f8e7f786d9be10fe1478cae9c747227a8a98785e5aaa3ed2ee9595c"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_selected_RF.csv.gz",
+      "bytes": 116966,
+      "sha256": "377d599e89c6365b4fff8ea422485431814c74700b730376388fd5fd1d54cf8e"
+    },
+    {
+      "path": "quietrisk/beer_artifacts/validation_snapshots.csv.gz",
+      "bytes": 889624,
+      "sha256": "0216e28d23fa279d993804c473aedf3dd3ecefc15a6aa09d63418f4b8e24ee69"
+    },
+    {
+      "path": "quietrisk/beer_data/beer_purchases.csv",
+      "bytes": 14433479,
+      "sha256": "e3d0f9f644db0b0a93e4cf6b36d9baefa1f0a38350e8d3b0aaab999ecc6279cd"
+    },
+    {
+      "path": "quietrisk/beer_data/customer_complaints.csv",
+      "bytes": 7210348,
+      "sha256": "3980c4c1da7680d30d0496f66bc0b0c9d45b98694a9ef0c3ed8adc029054344c"
+    },
+    {
+      "path": "quietrisk/beer_pipeline.py",
+      "bytes": 6765,
+      "sha256": "c430e87f91fc5a4256267730c9f42c27a439465afa2fa1696898b8d02d5762ad"
+    },
+    {
+      "path": "quietrisk/QuietRisk_저장결과_검토.ipynb",
+      "bytes": 2513,
+      "sha256": "e5ab677b72e58a1a988c17cf8095bc8ffd60774905a975328edc5c2f537a45a3"
+    },
+    {
+      "path": "work/beer_data_audit/beer_purchases.csv",
+      "bytes": 14433479,
+      "sha256": "e3d0f9f644db0b0a93e4cf6b36d9baefa1f0a38350e8d3b0aaab999ecc6279cd"
+    },
+    {
+      "path": "work/beer_data_audit/customer_complaints.csv",
+      "bytes": 7210348,
+      "sha256": "3980c4c1da7680d30d0496f66bc0b0c9d45b98694a9ef0c3ed8adc029054344c"
+    },
+    {
+      "path": "work/beer_model/definition_comparison/prepared/common_snapshots_train_validation.csv.gz",
+      "bytes": 10197073,
+      "sha256": "194673243ced272d17facf2c884b2821866a55e7656b125fe19cce24a3b6fef5"
+    },
+    {
+      "path": "work/beer_model/final_tuning/completion_manifest.json",
+      "bytes": 422,
+      "sha256": "b5e5cd127447682474371c773bac932f42113660e64ba68c7d9d08ff4a4fae10"
+    },
+    {
+      "path": "work/beer_model/final_tuning/execution_settings.json",
+      "bytes": 1775,
+      "sha256": "24f0537a8b8bb93a15140914fa1174647087dbea4b9574616910218aeb8dd3bd"
+    },
+    {
+      "path": "work/beer_model/final_tuning/finalize_model.py",
+      "bytes": 10052,
+      "sha256": "60a89694ca9757a3490df1e9c07aea312d753d0f84adcf04c20a93ee8bb85174"
+    },
+    {
+      "path": "work/beer_model/final_tuning/model_decision_before_outer_validation.json",
+      "bytes": 1618,
+      "sha256": "d96c92278c346566fc8af63ac23efc2dc10c8ae40038fbb17711b4230e8904e0"
+    },
+    {
+      "path": "work/beer_model/final_tuning/stage1_manifest.json",
+      "bytes": 1868,
+      "sha256": "676b7c16de9022c78e6e1115963e904509e25318a2278ce8057667c81762f687"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/fold_counts.csv",
+      "bytes": 1121,
+      "sha256": "c14b4de21fd31790523b1f023aefa7d252ab66b3350ddabb5acb425599284470"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/internal_budgets.csv",
+      "bytes": 545,
+      "sha256": "7fd35f302297104653628b2715333ff5fafab76e82e743e96e748c512def364a"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/internal_candidate_ranking.csv",
+      "bytes": 2790,
+      "sha256": "1c0c153af377a0dd71a8d489925988fc0e59a343c92bd92ac9b0895e6bcf9188"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/stage1_all_folds.csv",
+      "bytes": 8731,
+      "sha256": "440c6cafbf1ee96cafa416b0335a9954733eb0391f4c386219184d91dd9e029b"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/stage1_progress.csv",
+      "bytes": 8731,
+      "sha256": "440c6cafbf1ee96cafa416b0335a9954733eb0391f4c386219184d91dd9e029b"
+    },
+    {
+      "path": "work/beer_model/final_tuning/tables/verification_checks.csv",
+      "bytes": 5146,
+      "sha256": "e677845d165e04949a99f53bb76f6ef78585771a62f7f343d2c406d3597307f7"
+    },
+    {
+      "path": "work/beer_model/final_tuning/train_stage1.py",
+      "bytes": 13893,
+      "sha256": "3ca916c62ff0d7d3e01a57ecac1d31c753a65e47c3d36c693239e59015614ea2"
+    },
+    {
+      "path": "work/beer_model/steps_08_14/feature_plans.json",
+      "bytes": 3037,
+      "sha256": "46bfcec0e6ffd7f1ecdd79347ad8eb6f8a1be83d1de95e16edae954cad48ae24"
+    }
+  ]
+}

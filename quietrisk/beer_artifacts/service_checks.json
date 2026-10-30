@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Saved final model reproduces frozen validation scores",
+      "passed": true
+    },
+    {
+      "check": "Same approved total quota and no repeated customer",
+      "passed": true
+    },
+    {
+      "check": "Observed final result reconciles to selected customers",
+      "passed": true
+    },
+    {
+      "check": "Future and administrative fields excluded from model input",
+      "passed": true
+    },
+    {
+      "check": "Model chosen before old outer confirmation",
+      "passed": true
+    },
+    {
+      "check": "No new test evaluation",
+      "passed": true
+    },
+    {
+      "check": "Streamlit initial render has no exception",
+      "passed": true
+    },
+    {
+      "check": "Five service sections rendered",
+      "passed": true
+    },
+    {
+      "check": "Management selection view renders",
+      "passed": true
+    },
+    {
+      "check": "Historical outcome view renders",
+      "passed": true
+    },
+    {
+      "check": "Customer change triggers saved model prediction",
+      "passed": true
+    },
+    {
+      "check": "Latest no-outcome preview renders without target columns",
+      "passed": true
+    },
+    {
+      "check": "No historical campaign radio in latest preview",
+      "passed": true
+    },
+    {
+      "check": "Submission documents exist",
+      "passed": true
+    },
+    {
+      "check": "Original UCI app and artifacts preserved",
+      "passed": true
+    }
+  ],
+  "total": 15,
+  "predictive_fits_during_check": 0,
+  "model_sha256": "f4f0ecb46efa3a6a489acb010048840da4aa8ff7db321d25a964009abd373678"
+}

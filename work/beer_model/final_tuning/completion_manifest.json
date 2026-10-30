@@ -1,0 +1,12 @@
+{
+  "status": "model_saved_and_reproduced",
+  "selected_family": "RF",
+  "selected_condition": "C",
+  "model_sha256": "f4f0ecb46efa3a6a489acb010048840da4aa8ff7db321d25a964009abd373678",
+  "source_decision_sha256": "d96c92278c346566fc8af63ac23efc2dc10c8ae40038fbb17711b4230e8904e0",
+  "outer_used_for_selection": false,
+  "new_test_evaluation": false,
+  "stage1_fits": 48,
+  "full_refits": 2,
+  "stage2": false
+}

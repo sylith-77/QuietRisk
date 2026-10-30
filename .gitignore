@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.streamlit/secrets.toml
+work/beer_model/final_tuning/models/
+work/beer_model/final_tuning/scores/

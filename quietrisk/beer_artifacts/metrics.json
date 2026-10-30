@@ -1,0 +1,193 @@
+{
+  "selected_family": "RF",
+  "selected_condition": "C",
+  "selection_reason": "RF has a clear mean unique-customer gain advantage (>5); primary metric first",
+  "internal_selection": {
+    "condition": "C",
+    "family": "RF",
+    "params": {
+      "max_depth": 8,
+      "max_features": 0.5,
+      "min_samples_leaf": 80
+    },
+    "feature_count": 37,
+    "regime": "quiet",
+    "mean_delta": 41.5,
+    "min_fold_delta": 36,
+    "F1_delta": 47,
+    "F2_delta": 36,
+    "worst_month": -9,
+    "negative_months": 1,
+    "mean_AP": 0.5075232647710184,
+    "mean_precision": 0.5224897617760207
+  },
+  "internal_best_LR": {
+    "condition": "A",
+    "family": "LR",
+    "params": {
+      "C": 0.1
+    },
+    "feature_count": 37,
+    "regime": "all",
+    "mean_delta": 21.0,
+    "min_fold_delta": -21,
+    "F1_delta": -21,
+    "F2_delta": 63,
+    "worst_month": -20,
+    "negative_months": 4,
+    "mean_AP": 0.5022243978843084,
+    "mean_precision": 0.5106723127921847
+  },
+  "internal_best_RF": {
+    "condition": "C",
+    "family": "RF",
+    "params": {
+      "max_depth": 8,
+      "max_features": 0.5,
+      "min_samples_leaf": 80
+    },
+    "feature_count": 37,
+    "regime": "quiet",
+    "mean_delta": 41.5,
+    "min_fold_delta": 36,
+    "F1_delta": 47,
+    "F2_delta": 36,
+    "worst_month": -9,
+    "negative_months": 1,
+    "mean_AP": 0.5075232647710184,
+    "mean_precision": 0.5224897617760207
+  },
+  "outer_confirmation": [
+    {
+      "family": "LR",
+      "condition": "A",
+      "features": 37,
+      "regime": "all",
+      "params": {
+        "C": 0.1
+      },
+      "train_rows": 116594,
+      "internal_mean_delta": 21.0,
+      "internal_min_fold_delta": -21,
+      "hits": 870,
+      "recency_hits": 860,
+      "delta_unique": 10,
+      "model_only": 271,
+      "rule_only": 261,
+      "both": 599,
+      "selected": 1823,
+      "precision": 0.47723532638507954,
+      "recall": 0.279383429672447,
+      "AP": 0.524637790497357,
+      "worst_month": -21,
+      "negative_months": 2,
+      "matched_events": 599,
+      "paired_advance_median": 28.0
+    },
+    {
+      "family": "RF",
+      "condition": "C",
+      "features": 37,
+      "regime": "quiet",
+      "params": {
+        "max_depth": 8,
+        "max_features": 0.5,
+        "min_samples_leaf": 80
+      },
+      "train_rows": 43397,
+      "internal_mean_delta": 41.5,
+      "internal_min_fold_delta": 36,
+      "hits": 901,
+      "recency_hits": 860,
+      "delta_unique": 41,
+      "model_only": 274,
+      "rule_only": 233,
+      "both": 627,
+      "selected": 1823,
+      "precision": 0.494240263302249,
+      "recall": 0.2893384714193963,
+      "AP": 0.5296352685107605,
+      "worst_month": -14,
+      "negative_months": 1,
+      "matched_events": 627,
+      "paired_advance_median": 28.0
+    }
+  ],
+  "selected_outer": {
+    "family": "RF",
+    "condition": "C",
+    "features": 37,
+    "regime": "quiet",
+    "params": {
+      "max_depth": 8,
+      "max_features": 0.5,
+      "min_samples_leaf": 80
+    },
+    "train_rows": 43397,
+    "internal_mean_delta": 41.5,
+    "internal_min_fold_delta": 36,
+    "hits": 901,
+    "recency_hits": 860,
+    "delta_unique": 41,
+    "model_only": 274,
+    "rule_only": 233,
+    "both": 627,
+    "selected": 1823,
+    "precision": 0.494240263302249,
+    "recall": 0.2893384714193963,
+    "AP": 0.5296352685107605,
+    "worst_month": -14,
+    "negative_months": 1,
+    "matched_events": 627,
+    "paired_advance_median": 28.0
+  },
+  "recency_outer_hits": 860,
+  "validation_rows": 9358,
+  "validation_customers": 3027,
+  "budgets": [
+    378,
+    391,
+    370,
+    370,
+    314
+  ],
+  "budget_total": 1823,
+  "latest_date": "2024-08-06",
+  "latest_quiet_customers": 1430,
+  "primary_recommended_strategy": "ML",
+  "phase1_fits": 48,
+  "full_refits": 2,
+  "stage2_performed": false,
+  "test_evaluated": false,
+  "test_independent_claim": false,
+  "old_test_exposure": "2024-02-08 was evaluated in an earlier experiment; never describe it as a wholly new independent test.",
+  "checks": {
+    "internal_preprocessing_and_temporal_checks": 99,
+    "saved_models_reproduce_scores": true,
+    "asof_features_match_approved_history": true,
+    "latest_features_ignore_future_complaints": true,
+    "no_repeat_selected_customers": true,
+    "model_decision_frozen_before_outer": true
+  },
+  "dataset": {
+    "purchase_raw_rows": 188683,
+    "valid_purchase_rows": 188629,
+    "valid_purchase_customers": 19314,
+    "complaint_rows": 301301,
+    "complaint_customers": 17073,
+    "quarantined_rows": 54,
+    "purchase_start": "2019-08-09",
+    "purchase_end": "2024-08-06"
+  },
+  "source_urls": [
+    "https://github.com/Datakortex/Datasets/tree/main/customer_churn_in_beer_industry"
+  ],
+  "limitations": [
+    "Actual collection provenance and complaint receipt/processing-date semantics unverified.",
+    "No-record means no observed record by cutoff, not proof of no dissatisfaction.",
+    "Existing outer validation has been repeatedly inspected; confirmation is exploratory.",
+    "Only two internal periods; recurring customers and overlapping outcome windows remain.",
+    "Scores are ranking scores, not calibrated real churn probabilities.",
+    "Latest scoring preview has no future outcome labels or validated campaign allocation."
+  ]
+}

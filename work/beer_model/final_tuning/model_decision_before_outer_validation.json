@@ -1,0 +1,63 @@
+{
+  "selected": {
+    "condition": "C",
+    "family": "RF",
+    "params": {
+      "max_depth": 8,
+      "max_features": 0.5,
+      "min_samples_leaf": 80
+    },
+    "feature_count": 37,
+    "regime": "quiet",
+    "mean_delta": 41.5,
+    "min_fold_delta": 36,
+    "F1_delta": 47,
+    "F2_delta": 36,
+    "worst_month": -9,
+    "negative_months": 1,
+    "mean_AP": 0.5075232647710184,
+    "mean_precision": 0.5224897617760207
+  },
+  "best_LR": {
+    "condition": "A",
+    "family": "LR",
+    "params": {
+      "C": 0.1
+    },
+    "feature_count": 37,
+    "regime": "all",
+    "mean_delta": 21.0,
+    "min_fold_delta": -21,
+    "F1_delta": -21,
+    "F2_delta": 63,
+    "worst_month": -20,
+    "negative_months": 4,
+    "mean_AP": 0.5022243978843084,
+    "mean_precision": 0.5106723127921847
+  },
+  "best_RF": {
+    "condition": "C",
+    "family": "RF",
+    "params": {
+      "max_depth": 8,
+      "max_features": 0.5,
+      "min_samples_leaf": 80
+    },
+    "feature_count": 37,
+    "regime": "quiet",
+    "mean_delta": 41.5,
+    "min_fold_delta": 36,
+    "F1_delta": 47,
+    "F2_delta": 36,
+    "worst_month": -9,
+    "negative_months": 1,
+    "mean_AP": 0.5075232647710184,
+    "mean_precision": 0.5224897617760207
+  },
+  "reason": "RF has a clear mean unique-customer gain advantage (>5); primary metric first",
+  "internal_both_folds_nonnegative": true,
+  "stage2_performed": false,
+  "stage2_reason": "Bounded first-stage complete; reproducible service prioritized, no extra search",
+  "outer_validation_used_for_selection": false,
+  "test_used": false
+}

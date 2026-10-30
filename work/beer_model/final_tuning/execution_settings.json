@@ -1,0 +1,84 @@
+{
+  "folds": [
+    {
+      "name": "F1",
+      "train_end": "2020-11-08",
+      "validation": [
+        "2021-05-08",
+        "2021-06-08",
+        "2021-07-08",
+        "2021-08-08",
+        "2021-09-08"
+      ]
+    },
+    {
+      "name": "F2",
+      "train_end": "2021-04-08",
+      "validation": [
+        "2021-10-08",
+        "2021-11-08",
+        "2021-12-08",
+        "2022-01-08",
+        "2022-02-08"
+      ]
+    }
+  ],
+  "grid": {
+    "LR": [
+      {
+        "C": 0.1
+      },
+      {
+        "C": 1
+      },
+      {
+        "C": 10
+      }
+    ],
+    "RF": [
+      {
+        "max_depth": 8,
+        "min_samples_leaf": 30,
+        "max_features": 0.5
+      },
+      {
+        "max_depth": null,
+        "min_samples_leaf": 30,
+        "max_features": 0.5
+      },
+      {
+        "max_depth": 8,
+        "min_samples_leaf": 80,
+        "max_features": 0.5
+      }
+    ]
+  },
+  "conditions": {
+    "A": [
+      37,
+      "all"
+    ],
+    "B": [
+      30,
+      "all"
+    ],
+    "C": [
+      37,
+      "quiet"
+    ],
+    "D": [
+      30,
+      "quiet"
+    ]
+  },
+  "seed": 20261029,
+  "primary": "mean of per-fold net unique D180 churn customers vs same-policy Recency",
+  "budget_rule": "min(original slot cap, ceil(20% current common quiet pool), worst-case remaining capacity)",
+  "policy": "all selections blocked 180 days; separate empty campaign history per fold and method",
+  "no_stage2_reason": "prioritize complete reproducible service; no optimization to exceed old +27",
+  "outer_validation_not_used_for_selection": true,
+  "test_evaluation": false,
+  "source_hashes": {
+    "raw_common_snapshots": "194673243ced272d17facf2c884b2821866a55e7656b125fe19cce24a3b6fef5"
+  }
+}

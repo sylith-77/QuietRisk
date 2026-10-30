@@ -1,0 +1,100 @@
+﻿check,passed
+Common training cohort unchanged,True
+Fixed feature counts,True
+Original damaged IDs quarantined,True
+2020-11-08 snapshot matches approved cache and ignores future,True
+2021-04-08 snapshot matches approved cache and ignores future,True
+F1 labels mature before validation,True
+F1 internal validation outcomes remain inside training observation,True
+F1 positive affordable quota 2021-05-08,True
+F1 positive affordable quota 2021-06-08,True
+F1 positive affordable quota 2021-07-08,True
+F1 positive affordable quota 2021-08-08,True
+F1 positive affordable quota 2021-09-08,True
+F2 labels mature before validation,True
+F2 internal validation outcomes remain inside training observation,True
+F2 positive affordable quota 2021-10-08,True
+F2 positive affordable quota 2021-11-08,True
+F2 positive affordable quota 2021-12-08,True
+F2 positive affordable quota 2022-01-08,True
+F2 positive affordable quota 2022-02-08,True
+F1A equal customer total weights,True
+9da06668d4febfcf preprocessing training-only and finite,True
+9da06668d4febfcf LR convergence,True
+bc92c2e08bb16aa4 preprocessing training-only and finite,True
+bc92c2e08bb16aa4 LR convergence,True
+33222fc99f83ccc2 preprocessing training-only and finite,True
+33222fc99f83ccc2 LR convergence,True
+abcd73ddbf238ec4 preprocessing training-only and finite,True
+a2bc94b635a79480 preprocessing training-only and finite,True
+17dd70b1c0ea1de9 preprocessing training-only and finite,True
+F1B equal customer total weights,True
+97c15f86493761fd preprocessing training-only and finite,True
+97c15f86493761fd LR convergence,True
+1527eef9730f6c5e preprocessing training-only and finite,True
+1527eef9730f6c5e LR convergence,True
+5868618c783564e3 preprocessing training-only and finite,True
+5868618c783564e3 LR convergence,True
+329d3e8bf522b3a3 preprocessing training-only and finite,True
+c574be92c6d23668 preprocessing training-only and finite,True
+b480db67e8951d1e preprocessing training-only and finite,True
+F1C equal customer total weights,True
+86409e56a6629a11 preprocessing training-only and finite,True
+86409e56a6629a11 LR convergence,True
+f434f6e60088f96f preprocessing training-only and finite,True
+f434f6e60088f96f LR convergence,True
+423480366ae24884 preprocessing training-only and finite,True
+423480366ae24884 LR convergence,True
+2575f480ce456856 preprocessing training-only and finite,True
+9402d83b1759bee3 preprocessing training-only and finite,True
+a8b53487a1086965 preprocessing training-only and finite,True
+F1D equal customer total weights,True
+6720963fc8f565d6 preprocessing training-only and finite,True
+6720963fc8f565d6 LR convergence,True
+9cf63f67ebdf1ea9 preprocessing training-only and finite,True
+9cf63f67ebdf1ea9 LR convergence,True
+f3fdd7834280b221 preprocessing training-only and finite,True
+f3fdd7834280b221 LR convergence,True
+df616768b94cc15e preprocessing training-only and finite,True
+84223ceb926a259e preprocessing training-only and finite,True
+130e479e6f9291fe preprocessing training-only and finite,True
+F2A equal customer total weights,True
+7920d93ba0f474bf preprocessing training-only and finite,True
+7920d93ba0f474bf LR convergence,True
+a9d77459744f62c7 preprocessing training-only and finite,True
+a9d77459744f62c7 LR convergence,True
+b7ed00da5801cfba preprocessing training-only and finite,True
+b7ed00da5801cfba LR convergence,True
+d3833542306f301b preprocessing training-only and finite,True
+41ba138c4d83beba preprocessing training-only and finite,True
+d1cbca7a8414fb8d preprocessing training-only and finite,True
+F2B equal customer total weights,True
+e8b0ae4595063b76 preprocessing training-only and finite,True
+e8b0ae4595063b76 LR convergence,True
+507ca9f66be9236b preprocessing training-only and finite,True
+507ca9f66be9236b LR convergence,True
+4452d6a60a352319 preprocessing training-only and finite,True
+4452d6a60a352319 LR convergence,True
+d3b71b81f456302e preprocessing training-only and finite,True
+39d772421f8273bd preprocessing training-only and finite,True
+b829268c38b09dea preprocessing training-only and finite,True
+F2C equal customer total weights,True
+621a14a7242de16b preprocessing training-only and finite,True
+621a14a7242de16b LR convergence,True
+4f03a994d129d3aa preprocessing training-only and finite,True
+4f03a994d129d3aa LR convergence,True
+f9a5fb589b7777ec preprocessing training-only and finite,True
+f9a5fb589b7777ec LR convergence,True
+ad3e345a65c61c03 preprocessing training-only and finite,True
+20ae66409394679b preprocessing training-only and finite,True
+5599e8084a622358 preprocessing training-only and finite,True
+F2D equal customer total weights,True
+cf63d8448d1fa0eb preprocessing training-only and finite,True
+cf63d8448d1fa0eb LR convergence,True
+072d7315f7133fa3 preprocessing training-only and finite,True
+072d7315f7133fa3 LR convergence,True
+a3332c418444db89 preprocessing training-only and finite,True
+a3332c418444db89 LR convergence,True
+cf19b77109a2f6ea preprocessing training-only and finite,True
+aa699a5bb40c84ec preprocessing training-only and finite,True
+0d7ddd264ef50c00 preprocessing training-only and finite,True
