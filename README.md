@@ -5,7 +5,7 @@
 ## 제출 링크
 
 - GitHub 소스: https://github.com/sylith-77/QuietRisk
-- Website / 배포 URL: **Streamlit 배포 완료 후 확정**
+- Website / 배포 URL: https://quietrisk-sylith-77.streamlit.app/
 - README: https://github.com/sylith-77/QuietRisk/blob/main/README.md
 
 ## 서비스 기능

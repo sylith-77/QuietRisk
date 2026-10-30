@@ -196,5 +196,10 @@
       "bytes": 3037,
       "sha256": "46bfcec0e6ffd7f1ecdd79347ad8eb6f8a1be83d1de95e16edae954cad48ae24"
     }
-  ]
+  ],
+  "website_url": "https://quietrisk-sylith-77.streamlit.app/",
+  "repository_url": "https://github.com/sylith-77/QuietRisk",
+  "readme_url": "https://github.com/sylith-77/QuietRisk/blob/main/README.md",
+  "deployment_date": "2026-10-30",
+  "runtime_smoke_check": "passed: initial render and management selection, zero exceptions, five sections"
 }
